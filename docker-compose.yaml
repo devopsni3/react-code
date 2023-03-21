@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  myapp:
+    image: ni3devops/insighttellers:latest
+    restart: always
+    ports:
+      - "82:80"
+      - "443:443"
